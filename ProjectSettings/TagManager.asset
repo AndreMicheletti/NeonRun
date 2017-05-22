@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Projectile
+  - Destructible
+  - LeftButton
+  - RightButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Boundary
+  - Terrain
+  - Destructible
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2448695773
+    locked: 0
+  - name: Character
+    uniqueID: 4051132479
+    locked: 0
+  - name: Effect
+    uniqueID: 2420815087
+    locked: 0
+  - name: Foreground
+    uniqueID: 542061935
+    locked: 0

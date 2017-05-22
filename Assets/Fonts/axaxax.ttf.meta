@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3cf6e952b362be4f8a3090038f309cb
+timeCreated: 1494455203
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Axaxax
+  fontNames:
+  - Axaxax
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
