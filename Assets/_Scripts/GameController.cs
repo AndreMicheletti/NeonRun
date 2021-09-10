@@ -122,28 +122,6 @@ public class GameController : MonoBehaviour {
 		SceneManager.LoadScene (index);
 	}
 
-	#if !UNITY_WEBGL
-	public void ShowAd(string type) {
-		ShowOptions options = new ShowOptions ();
-		options.resultCallback = handleAdResult;
-		if (Advertisement.IsReady ()) {
-			Debug.Log ("Showing AD '" + type + "'");
-			Advertisement.Show (type, options);
-		}
-	}
-
-	public void ShowRewardedVideo() {
-		ShowAd ("rewardedVideo");
-	}
-		
-	private void handleAdResult(ShowResult result) {
-		if (result == ShowResult.Finished) {
-			Debug.Log ("AD Finished");
-			respawn ();
-		}
-	}
-	#endif
-
 	public void respawn() {
 		GameObject[] array = GameObject.FindGameObjectsWithTag ("Destructible");
 		for (int i = 0; i < array.Length; i++) {
